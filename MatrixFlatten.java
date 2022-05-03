@@ -67,11 +67,13 @@ public class MatrixFlatten {
         System.out.println(title);
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
+                System.out.print("{ ");
                 for (int k = 0; k < p; k++) {
-                    System.out.print(matrix[i][j][k] + ", ");
+                    System.out.print(matrix[i][j][k] + ",");
                 }
+                System.out.print(" }");
             }
-            System.out.print(" ");
+            System.out.print("  ");
         }
         System.out.println();
         System.out.println("------------------------------------------------");
