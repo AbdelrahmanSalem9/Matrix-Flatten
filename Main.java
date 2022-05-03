@@ -51,6 +51,7 @@ public class Main {
                     System.out.println(array[mFlatten.getMappedIndex(i, j, k)]);
                 } else {
                     System.out.println("Invalid Test Input Please Try Again...");
+                    System.out.println("------------------------------------------------");
                     continue;
                 }
                 System.out.println("------------------------------------------------");
