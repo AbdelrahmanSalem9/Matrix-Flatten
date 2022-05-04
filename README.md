@@ -21,3 +21,4 @@ The program consists of only two files where one for main method and test cases 
 - Simple user interface from the command window and some invalid input checks
 
 ## Snip from program and test some results
+![This is an image](TestCases.PNG)
