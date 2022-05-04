@@ -3,12 +3,22 @@ import java.util.Scanner;
 
 public class Main {
 
+    static Scanner in = new Scanner(System.in);
+
     public static void main(String[] args) {
 
         // input user dimensions
-        int n = 3; // width
-        int m = 2; // height
-        int p = 5; // depth
+        int n; // width
+        int m; // height
+        int p; // depth
+
+        System.out.println("Enter Matrix Dimensions: ");
+        System.out.print("n = ");
+        n = in.nextInt();
+        System.out.print("m = ");
+        m = in.nextInt();
+        System.out.print("p = ");
+        p = in.nextInt();
 
         // Creating the object for the matrix flatten problem
         MatrixFlatten mFlatten = new MatrixFlatten(n, m, p);
@@ -33,7 +43,7 @@ public class Main {
 
     static void testProgram(int[][][] matrix, int[] array, int n, int m, int p, MatrixFlatten mFlatten) {
 
-        Scanner in = new Scanner(System.in);
+        // Scanner in = new Scanner(System.in);
         int i, j, k;
         do {
             // read test index
@@ -42,7 +52,7 @@ public class Main {
                 i = in.nextInt();
                 j = in.nextInt();
                 k = in.nextInt();
-                // in.close();
+
                 // check invalid indexing
                 if (i < n && j < m && k < p) {
                     System.out.println(matrix[i][j][k]);
