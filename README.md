@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Matrix Flatten</h1>
+<h1 align="center" id="title">3D-Matrix Flatten Program</h1>
 
 ## Description
 Java program to convert 3D-matrix of user-defined dimensions as n x m x p to 1D array using simple mapping function
